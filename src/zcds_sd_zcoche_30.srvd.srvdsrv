@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition zcoche_30'
+define service ZCDS_SD_ZCOCHE_30 {
+  expose ZCDS_DD_ZCOCHE_30;
+}

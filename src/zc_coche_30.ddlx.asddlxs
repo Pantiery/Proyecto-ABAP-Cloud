@@ -1,0 +1,150 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.typeName: 'Coche'
+@UI.headerInfo.typeNamePlural: 'Coches'
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Marca'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Modelo'
+annotate view ZC_COCHE_30 with
+{
+  @UI.facet: [ {
+    label: 'Información general', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 
+  } ]
+  @UI.lineItem: [ {
+    position: 10, label: 'Número identificación' 
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  @UI.hidden: true
+  IdCoche;
+  
+  @UI.identification: [ {
+    position: 20 
+  } ]
+  @UI.lineItem: [ {
+    position: 20, label: 'Número de cliente' 
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  @UI.hidden: true
+  IdCliente;
+  
+  @UI.identification: [ {
+    position: 30 
+  } ]
+  @UI.lineItem: [ {
+    position: 30, label: 'Marca' 
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  Marca;
+  
+  @UI.identification: [ {
+    position: 40 
+  } ]
+  @UI.lineItem: [ {
+    position: 40, label: 'Modelo'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  Modelo;
+  
+  @UI.identification: [ {
+    position: 50 
+  } ]
+  @UI.lineItem: [ {
+    position: 50, label: 'Fecha Matriculación'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  FechaMatri;
+  
+  @UI.identification: [ {
+    position: 60 
+  } ]
+  @UI.lineItem: [ {
+    position: 60, label: 'Nº Bastidor'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Bastidor;
+  
+  @UI.identification: [ {
+    position: 70 
+  } ]
+  @UI.lineItem: [ {
+    position: 70 
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  UserCreate;
+  
+  @UI.identification: [ {
+    position: 80 
+  } ]
+  @UI.lineItem: [ {
+    position: 80 
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  AbpLocinstLastchangeTstmp;
+  
+  @UI.identification: [ {
+    position: 90 
+  } ]
+  @UI.lineItem: [ {
+    position: 90 
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  AbpLocinstLastchangeUtcl;
+  
+  @UI.identification: [ {
+    position: 100 
+  } ]
+  @UI.lineItem: [ {
+    position: 100 
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  UserLastChange;
+  
+  @UI.identification: [ {
+    position: 110 
+  } ]
+  @UI.lineItem: [ {
+    position: 110 
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  AbpLastchangeTstmpl;
+  
+  @UI.identification: [ {
+    position: 120 
+  } ]
+  @UI.lineItem: [ {
+    position: 120 
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  AbpLastchangeUtcl;
+}

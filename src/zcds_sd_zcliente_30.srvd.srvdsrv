@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition zcliente_30'
+define service ZCDS_SD_ZCLIENTE_30 {
+  expose ZCDS_DD_ZCLIENTE_30;
+}

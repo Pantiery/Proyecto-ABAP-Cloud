@@ -1,0 +1,5 @@
+CLASS zbp_cds_dd_zcliente_30 DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zcds_dd_zcliente_30.
+ENDCLASS.
+
+CLASS zbp_cds_dd_zcliente_30 IMPLEMENTATION.
+ENDCLASS.

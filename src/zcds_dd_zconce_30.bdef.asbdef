@@ -1,0 +1,14 @@
+unmanaged implementation in class zbp_cds_dd_zconce_30 unique;
+strict ( 2 );
+
+define behavior for ZCDS_DD_ZCONCE_30 //alias <alias_name>
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field ( readonly ) IdConce;
+}
