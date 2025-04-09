@@ -5,10 +5,8 @@
     title: { value: 'Nombre' }, // Usamos el campo Nombre como título principal
     description: { value: 'Provincia' } // Usamos el campo Provincia como descripción
   }
-
 annotate view ZCDS_DD_ZCONCE_30 with
 {
-
   @UI.facet: [{
 
   id:           'infoGeneral',
@@ -17,53 +15,6 @@ annotate view ZCDS_DD_ZCONCE_30 with
   label:         'Información general',
   position:      10
   }]
-//  {
-//      id: 'ubicacion',
-//      purpose: #STANDARD,
-//      type: #FIELDGROUP_REFERENCE,
-//      targetElement: 'UbicacionGroup',
-//      label: 'Ubicación',
-//      position: 20
-//    },
-//    {
-//      id: 'contacto',
-//      purpose: #STANDARD,
-//      type: #FIELDGROUP_REFERENCE,
-//      targetElement: 'ContactoGroup',
-//      label: 'Contacto',
-//      position: 30
-//    }]
-    
-     // Grupo de campos para Ubicación
-//  @UI.fieldGroup: [{
-//      qualifier: 'UbicacionGroup',
-//      label: 'Ubicación'
-//  }]
-//  @UI.lineItem: [{ position: 30, label: 'Localidad' }]
-//  Localidad;
-//  
-//  @UI.fieldGroup: [{ qualifier: 'UbicacionGroup', position: 40 }]
-//  @UI.lineItem: [{ position: 40, label: 'Provincia' }]
-//  Provincia;
-//
-//  @UI.fieldGroup: [{ qualifier: 'UbicacionGroup', position: 50 }]
-//  @UI.lineItem: [{ position: 50, label: 'Código Postal' }]
-//  CodPost;
-//  
-//  // Grupo de campos para Contacto
-//  @UI.fieldGroup: [{
-//      qualifier: 'ContactoGroup',
-//      label: 'Contacto'
-//  }]
-//  
-//   @UI.lineItem: [{ position: 60, label: 'Teléfono' }]
-//  Telefono;
-//
-//  @UI.fieldGroup: [{ qualifier: 'ContactoGroup', position: 70 }]
-//  @UI.lineItem: [{ position: 70, label: 'Correo Electrónico' }]
-//  Email;
-
-
 
   @UI.selectionField: [{ position: 10 }] //Posicion del filtro de busqueda
   @UI.lineItem:       [{ position: 10, label: 'ID Concesionario' }]//Indicamos posicion y label
@@ -101,8 +52,4 @@ annotate view ZCDS_DD_ZCONCE_30 with
   @UI.lineItem:       [{ position: 70, label: 'Correo electronico' }]
   @UI.identification: [{ position: 70 }]
   Email;
-  
-
- 
-
 }
