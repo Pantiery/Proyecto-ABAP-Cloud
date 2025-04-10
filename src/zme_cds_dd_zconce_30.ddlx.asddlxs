@@ -17,7 +17,8 @@ annotate view ZCDS_DD_ZCONCE_30 with
   }]
 
   @UI.selectionField: [{ position: 10 }] //Posicion del filtro de busqueda
-  @UI.lineItem:       [{ position: 10, label: 'ID Concesionario' }]//Indicamos posicion y label
+  @UI.lineItem: [{ position: 10, label: 'ID Concesionario' }, { type: #FOR_ACTION, dataAction: 'SendEmail', label: 'Send' } ]//Indicamos posicion y label
+  //@UI.lineItem:       [{ position: 10, label: 'ID Concesionario' }]//Indicamos posicion y label
   @UI.identification: [{ position: 10 }]
   @UI.hidden: true //Ocultar el campo
   IdConce;
@@ -29,7 +30,7 @@ annotate view ZCDS_DD_ZCONCE_30 with
   
    @UI.lineItem:       [{ position: 30, label: 'Localidad' }]
   @UI.selectionField: [{ position: 30 }] //Posicion del filtro de busqueda
-  @UI.fieldGroup: [{ qualifier: 'ubicacionGroup', position: 20 }]
+  @UI.fieldGroup: [{ qualifier: 'ubicacion', position: 20 }]
   @UI.identification: [{ position: 30 }]
   Localidad;
 

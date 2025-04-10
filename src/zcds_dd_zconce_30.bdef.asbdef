@@ -11,4 +11,6 @@ authorization master ( instance )
   update;
   delete;
   field ( readonly ) IdConce;
+  action sendemail result [1] $self;
+     action CallApp result [1] $self;
 }

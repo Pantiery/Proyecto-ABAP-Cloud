@@ -1,0 +1,4 @@
+@EndUserText.label: 'Join cliente y coche'
+define service ZSB_JOIN_CLIENTE_COCHE_30 {
+  expose ZCDS_VIST_COCH_CLIENT;
+}

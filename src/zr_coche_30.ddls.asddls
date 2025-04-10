@@ -1,8 +1,8 @@
 @AccessControl.authorizationCheck: #CHECK
 @Metadata.allowExtensions: true
-@EndUserText.label: '###GENERATED Core Data Service Entity'
+@EndUserText.label: 'Coche'
 define root view entity ZR_COCHE_30
-  as select from ZCOCHE_30
+  as select from zcoche_30
 {
   key id_coche as IdCoche,
   key id_cliente as IdCliente,
